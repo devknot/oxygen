@@ -2,6 +2,7 @@ pub mod temperatura;
 pub mod forca;
 pub mod area;
 pub mod massa;
+pub mod norma;
 
 pub type Comum = f32;
 

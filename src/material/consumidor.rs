@@ -1,5 +1,7 @@
 
-pub trait Consumidor {}
+pub trait Consumidor {
+    fn preparar(&mut self, )
+}
 
 pub struct Ficticio;
 
