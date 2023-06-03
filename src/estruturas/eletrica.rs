@@ -3,7 +3,7 @@ use std::marker::PhantomData;
 use crate::material;
 
 
-
+/*
 pub struct Ficticio<'trabalho, 'consumo, Tr, Cs, Cm>
 where
     Tr: material::trabalho::Trabalho + 'trabalho,
@@ -20,6 +20,7 @@ impl <'trabalho, 'consumo> Ficticio<'trabalho, 'consumo, material::trabalho::Fic
         }
     }
 }
+*/
 
 //impl 
 

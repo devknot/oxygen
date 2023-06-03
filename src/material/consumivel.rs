@@ -1,7 +1,7 @@
 
-pub trait Consumivel {}
+pub trait Consumivel {
+    type Energia;
+    type Resto;
+}
 
-pub struct Ficticio;
-
-impl Consumivel for Ficticio {}
 

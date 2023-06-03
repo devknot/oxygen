@@ -5,6 +5,7 @@ use std::error;
 pub enum Erro {
     Nec, // não é um combustível
     Espaco,
+    Sc, // sem combustível
 }
 
 impl fmt::Display for Erro {
@@ -12,6 +13,7 @@ impl fmt::Display for Erro {
         write!(f, "{}", match self {
             Erro::Nec    => "não é um combustível",
             Erro::Espaco => "não há espaço o suficiente para armazenar",
+            Erro::Sc     => "não há combustível",
         })
     }
 }

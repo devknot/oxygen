@@ -2,7 +2,10 @@ pub mod temperatura;
 pub mod forca;
 pub mod area;
 pub mod massa;
+pub mod energia;
+
 pub mod norma;
+pub mod estoque;
 
 pub type Comum = f32;
 
@@ -25,3 +28,6 @@ pub trait Potencia {}
 pub trait Superficie {}
 
 pub trait Massa {}
+
+pub trait Energia {}
+
