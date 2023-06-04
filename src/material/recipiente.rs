@@ -11,7 +11,6 @@ where
     estoque: estoque::Estoque<Rc::Receituario>,
 }
 
-
 impl <Rc> Recipiente<Rc>
 where
     Rc: receita::Receita,

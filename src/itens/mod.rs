@@ -1,7 +1,9 @@
+
+pub mod item;
+
 use std::marker::PhantomData;
 
-
-type Comum = u16;
+pub type Comum = usize;
 
 pub struct Itens<Im>
 where

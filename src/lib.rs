@@ -5,6 +5,7 @@ pub mod erros;
 pub mod gases;
 pub mod itens;
 pub mod utilidades;
+pub mod contexto;
 
 mod teste;
 
